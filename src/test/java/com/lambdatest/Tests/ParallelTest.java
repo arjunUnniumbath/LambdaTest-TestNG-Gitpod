@@ -159,8 +159,6 @@ public class ParallelTest {
         
                     WebElement addFile = driver.findElement(By.xpath("//input[@id='file']"));
             addFile.sendKeys(FilePath);
-          
-        //  addFile.sendKeys("\\workspace\\LambdaTest-TestNG-Gitpod\\jenkins.svg");
             // close the file sucess pop up
 
             alert = driver.switchTo().alert();
@@ -168,6 +166,7 @@ public class ParallelTest {
             alertMessage = driver.switchTo().alert().getText();
             // Displaying alert message
             System.out.println("*******"+alertMessage);
+             //Assert successfull file upload in alert message
             Assert.assertTrue(alertMessage.contains("sucessfully!!"));
             // Accepting alert
             alert.accept();
@@ -176,10 +175,10 @@ public class ParallelTest {
             WebElement submitbtn=driver.findElement(By.cssSelector("#submit-button"));
             js.executeScript("arguments[0].scrollIntoView();", submitbtn);
             js.executeScript("arguments[0].click();", submitbtn);
-            //driver.findElement(By.cssSelector("#submit-button")).click();
 
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='message']")));
             final String message = driver.findElement(By.xpath("//div[@id='message']")).getText();
+          //assert sucessmessage displayed
             Assert.assertTrue(message.contains("successfully"));
         } catch (Exception e) {
 			System.out.println(e.getMessage());
