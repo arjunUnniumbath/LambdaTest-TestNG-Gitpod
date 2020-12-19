@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Lambdatest Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="version" value="87.0"/>
+  <parameter name="platform" value="MacOS Catalina"/>
+  <test name="WindowsChrome">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="version" value="87.0"/>
+    <parameter name="platform" value="Windows 10"/>
+    <classes>
+      <class name="com.lambdatest.Tests.ParallelTest"/>
+    </classes>
+  </test> <!-- WindowsChrome -->
+  <test name="MacChrome">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="version" value="87.0"/>
+    <parameter name="platform" value="MacOS Catalina"/>
+    <classes>
+      <class name="com.lambdatest.Tests.ParallelTest"/>
+    </classes>
+  </test> <!-- MacChrome -->
+</suite> <!-- Failed suite [Lambdatest Suite] -->
