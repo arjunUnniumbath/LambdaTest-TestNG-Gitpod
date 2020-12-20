@@ -180,8 +180,10 @@ public class ParallelTest {
             final String message = driver.findElement(By.xpath("//div[@id='message']")).getText();
           //assert sucessmessage displayed
             Assert.assertTrue(message.contains("successfully"));
+            js.executeScript("lambda-status=passed");
         } catch (Exception e) {
-			System.out.println(e.getMessage());
+            System.out.println(e.getMessage());
+             ((JavascriptExecutor) driver).executeScript("lambda-status=failed");
 		}
 		
 	}

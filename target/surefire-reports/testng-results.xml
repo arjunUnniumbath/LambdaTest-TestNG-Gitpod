@@ -2,21 +2,12 @@
 <testng-results total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite started-at="2020-12-19T17:38:41Z" name="Lambdatest Suite" finished-at="2020-12-19T17:39:44Z" duration-ms="63069">
+  <suite started-at="2020-12-20T10:02:09Z" name="Lambdatest Suite" finished-at="2020-12-20T10:03:41Z" duration-ms="91402">
     <groups>
     </groups>
-    <test started-at="2020-12-19T17:38:41Z" name="WindowsChrome" finished-at="2020-12-19T17:39:05Z" duration-ms="23865">
+    <test started-at="2020-12-20T10:02:09Z" name="WindowsChrome" finished-at="2020-12-20T10:02:57Z" duration-ms="47273">
       <class name="com.lambdatest.Tests.ParallelTest">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lambdatest.Tests.ParallelTest@59fd97a8]" started-at="2020-12-19T17:38:41Z" name="setUp" finished-at="2020-12-19T17:38:47Z" duration-ms="5701" status="PASS">
-=======
-  <suite started-at="2020-12-19T14:38:45Z" name="Lambdatest Suite" finished-at="2020-12-19T14:39:15Z" duration-ms="30069">
-    <groups>
-    </groups>
-    <test started-at="2020-12-19T14:38:45Z" name="WindowsChrome" finished-at="2020-12-19T14:38:55Z" duration-ms="9867">
-      <class name="com.lambdatest.Tests.ParallelTest">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lambdatest.Tests.ParallelTest@40ef3420]" started-at="2020-12-19T14:38:45Z" name="setUp" finished-at="2020-12-19T14:38:51Z" duration-ms="5659" status="PASS">
->>>>>>> 5c002ce312ff4eb3c5b47e334e84269ad9acbd76
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lambdatest.Tests.ParallelTest@59fd97a8]" started-at="2020-12-20T10:02:09Z" name="setUp" finished-at="2020-12-20T10:02:30Z" duration-ms="21097" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,33 +28,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-<<<<<<< HEAD
-        <test-method signature="test()[pri:0, instance:com.lambdatest.Tests.ParallelTest@59fd97a8]" started-at="2020-12-19T17:38:47Z" name="test" finished-at="2020-12-19T17:39:05Z" duration-ms="17867" status="PASS">
+        <test-method signature="test()[pri:0, instance:com.lambdatest.Tests.ParallelTest@59fd97a8]" started-at="2020-12-20T10:02:30Z" name="test" finished-at="2020-12-20T10:02:56Z" duration-ms="25968" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lambdatest.Tests.ParallelTest@59fd97a8]" started-at="2020-12-19T17:39:05Z" name="tearDown" finished-at="2020-12-19T17:39:05Z" duration-ms="290" status="PASS">
-=======
-        <test-method signature="test()[pri:0, instance:com.lambdatest.Tests.ParallelTest@40ef3420]" started-at="2020-12-19T14:38:51Z" name="test" finished-at="2020-12-19T14:38:54Z" duration-ms="3898" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lambdatest.Tests.ParallelTest@40ef3420]" started-at="2020-12-19T14:38:54Z" name="tearDown" finished-at="2020-12-19T14:38:55Z" duration-ms="303" status="PASS">
->>>>>>> 5c002ce312ff4eb3c5b47e334e84269ad9acbd76
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lambdatest.Tests.ParallelTest@59fd97a8]" started-at="2020-12-20T10:02:56Z" name="tearDown" finished-at="2020-12-20T10:02:57Z" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.lambdatest.Tests.ParallelTest -->
     </test> <!-- WindowsChrome -->
-<<<<<<< HEAD
-    <test started-at="2020-12-19T17:39:05Z" name="MacChrome" finished-at="2020-12-19T17:39:44Z" duration-ms="39171">
+    <test started-at="2020-12-20T10:02:57Z" name="MacChrome" finished-at="2020-12-20T10:03:41Z" duration-ms="44102">
       <class name="com.lambdatest.Tests.ParallelTest">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lambdatest.Tests.ParallelTest@4f6ee6e4]" started-at="2020-12-19T17:39:05Z" name="setUp" finished-at="2020-12-19T17:39:18Z" duration-ms="13385" status="PASS">
-=======
-    <test started-at="2020-12-19T14:38:55Z" name="MacChrome" finished-at="2020-12-19T14:39:15Z" duration-ms="20176">
-      <class name="com.lambdatest.Tests.ParallelTest">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lambdatest.Tests.ParallelTest@5ffead27]" started-at="2020-12-19T14:38:55Z" name="setUp" finished-at="2020-12-19T14:39:09Z" duration-ms="14590" status="PASS">
->>>>>>> 5c002ce312ff4eb3c5b47e334e84269ad9acbd76
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lambdatest.Tests.ParallelTest@4f6ee6e4]" started-at="2020-12-20T10:02:57Z" name="setUp" finished-at="2020-12-20T10:03:14Z" duration-ms="17652" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -84,19 +61,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-<<<<<<< HEAD
-        <test-method signature="test()[pri:0, instance:com.lambdatest.Tests.ParallelTest@4f6ee6e4]" started-at="2020-12-19T17:39:18Z" name="test" finished-at="2020-12-19T17:39:44Z" duration-ms="25352" status="PASS">
+        <test-method signature="test()[pri:0, instance:com.lambdatest.Tests.ParallelTest@4f6ee6e4]" started-at="2020-12-20T10:03:14Z" name="test" finished-at="2020-12-20T10:03:40Z" duration-ms="26035" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lambdatest.Tests.ParallelTest@4f6ee6e4]" started-at="2020-12-19T17:39:44Z" name="tearDown" finished-at="2020-12-19T17:39:44Z" duration-ms="434" status="PASS">
-=======
-        <test-method signature="test()[pri:0, instance:com.lambdatest.Tests.ParallelTest@5ffead27]" started-at="2020-12-19T14:39:09Z" name="test" finished-at="2020-12-19T14:39:14Z" duration-ms="4942" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lambdatest.Tests.ParallelTest@5ffead27]" started-at="2020-12-19T14:39:14Z" name="tearDown" finished-at="2020-12-19T14:39:15Z" duration-ms="644" status="PASS">
->>>>>>> 5c002ce312ff4eb3c5b47e334e84269ad9acbd76
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lambdatest.Tests.ParallelTest@4f6ee6e4]" started-at="2020-12-20T10:03:40Z" name="tearDown" finished-at="2020-12-20T10:03:41Z" duration-ms="415" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
